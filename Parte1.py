@@ -8,6 +8,7 @@ import time
 from subprocess import call
 os.system('git clone https://github.com/CDPS-ETSIT/practica_creativa2.git')
 variable = os.environ.get('GROUP_NUMBER')      
+print("Valor de GROUP_NUMBER:", variable)
 fin = open("/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/index.html", 'r') # in file
 fout = open("/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/index2.html", 'w') # out file
 for line in fin:
