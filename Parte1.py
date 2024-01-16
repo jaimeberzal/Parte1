@@ -18,7 +18,7 @@ for line in fin:
 fin.close()
 fout.close()
 
-call(["cp","/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/index2.html","/home/cdps/Part1/practica_creativa2/bookinfo/src/productpage/templates/index.html"])
+call(["cp","/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/index2.html","/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/index.html"])
 call(["rm","/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/index2.html"])
 
 fin = open("/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/productpage.html", 'r') # in file
@@ -31,13 +31,13 @@ for line in fin:
 fin.close()
 fout.close()
 
-call(["cp","/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/productpage2.html","/home/cdps/Part1/practica_creativa2/bookinfo/src/productpage/templates/productpage.html"])
+call(["cp","/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/productpage2.html","/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/productpage.html"])
 call(["rm","/home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/templates/productpage2.html"])
 
 os.system('sudo apt-get update')
 os.system('sudo apt-get install  python3-pip')
-os.system('pip3 install -r /home/cdps/Part1/practica_creativa2/bookinfo/src/productpage/requirements.txt')
-os.system(' python3 /home/cdps/Part1/practica_creativa2/bookinfo/src/productpage/productpage_monolith.py 9080')
+os.system('pip3 install -r /home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/requirements.txt')
+os.system(' python3 /home/cdps/Parte1/practica_creativa2/bookinfo/src/productpage/productpage_monolith.py 9080')
 
 
 
